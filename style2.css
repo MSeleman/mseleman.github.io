@@ -21,19 +21,19 @@ body {
 }
 
 .description {
-	font-size: 12pt;
+	font-size: 14pt;
 	color: #000000;
 	text-indent: 10pt;
 }
 
 .subheader {
-	font-size: 14pt;
+	font-size: 16pt;
 	font-weight: bold;
 	margin-top: 0;
 }
 
 .position {
-	font-size: 14;
+	font-size: 16;
 	font-style: italic;
 	font-weight: lighter;
 	margin-top: 0;
@@ -65,3 +65,13 @@ h2 {
 .right-column {
 	text-align: right;
 }
+
+
+
+#skills {
+	columns: 2;
+	list-style-position: inside;
+}
+
+
+
