@@ -5,7 +5,7 @@ p {
 	color: black;
 	text-align: left;
 	margin-top: 1pt;
-	margin-bottom: 2pt;
+	margin-bottom: 2pt;	
 }
 
 body {
@@ -43,11 +43,21 @@ body {
 h1 {
 	padding-bottom: 0;
 	padding-top: 0;
+	margin-bottom: 0pt;
 }
 
 h2 {
 	padding-bottom: 0;
 	padding-top: 0;
+	font-weight: lighter;
+	font-size: 16pt;
+	margin-top: 2pt;
+	margin-bottom: 8pt;
+}
+
+.subheader {
+	font-size: 14pt;
+	font-weight: bold;
 	margin-top: 2pt;
 	margin-bottom: 1pt;
 }
