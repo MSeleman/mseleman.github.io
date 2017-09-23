@@ -6,30 +6,35 @@ p {
 	text-align: left;
 	margin-top: 1pt;
 	margin-bottom: 2pt;	
+	padding-left: 10pt;
+
 }
 
 body {
-	padding-left: 10pt;
+	padding-left: 80pt;
 	text-indent: 0pt;
 	font-family: Times, Helvetica,Arial,sans-serif;
-	background-color: #FFFFFF;
+	background-color: #90EE90;
 }
 
 .section-header {
 	font-size: 16pt;
 	color: #000000;
 	font-weight: bold;
+	padding-left: 10pt;
 }
 
 .description {
 	font-size: 12pt;
 	color: #000000;
+	padding-left: 10pt;
 }
 
 .subheader {
 	font-size: 16pt;
 	font-weight: bold;
 	margin-top: 0;
+	padding-left: 10pt;
 }
 
 .position {
@@ -38,6 +43,7 @@ body {
 	font-weight: lighter;
 	margin-top: 0;
 	margin-bottom: 1pt;
+	padding-left: 10pt;
 }
 
 h1 {
@@ -71,13 +77,13 @@ h2 {
 #skills {
 	columns: 2;
 	list-style-position: outside;
-	padding-left: 20pt;
+	padding-left: 30pt;
 }
 
 
 #projects {
 	list-style-position: outside;
-	padding-left: 20pt;
+	padding-left: 30pt;
 }
 li {
 	font-size: 12pt;
@@ -98,5 +104,25 @@ h1.top {
 
 h2.top {
 	padding-bottom: 25pt;
+}
+
+hr {
+	border-color: #191970; 
+	border-style: double;
+	border-width: 1px;
+}
+
+div.main {
+	background-color: #FFFFFF;
+	/*border-left: 10px solid red;
+	border-left-style: dashed;
+	border-color: #40E0D0; */
+
+}
+
+
+div.segments {
+	border-left: 10px solid red;
+	border-color: #40E0D0;
 }
 
