@@ -1,7 +1,7 @@
 
 p {
 
-	font-size: 14px;
+	font-size: 12pt;
 	color: black;
 	text-align: left;
 	margin-top: 1pt;
@@ -9,7 +9,8 @@ p {
 }
 
 body {
-
+	padding-left: 10pt;
+	text-indent: 0pt;
 	font-family: Times, Helvetica,Arial,sans-serif;
 	background-color: #FFFFFF;
 }
@@ -21,9 +22,8 @@ body {
 }
 
 .description {
-	font-size: 14pt;
+	font-size: 12pt;
 	color: #000000;
-	text-indent: 10pt;
 }
 
 .subheader {
@@ -47,11 +47,11 @@ h1 {
 }
 
 h2 {
-	padding-bottom: 0;
+	padding-bottom: 0pt;
 	padding-top: 0;
 	font-weight: lighter;
 	font-size: 16pt;
-	margin-top: 2pt;
+	margin-top: 0pt;
 	margin-bottom: 8pt;
 }
 
@@ -70,8 +70,33 @@ h2 {
 
 #skills {
 	columns: 2;
-	list-style-position: inside;
+	list-style-position: outside;
+	padding-left: 20pt;
 }
 
 
+#projects {
+	list-style-position: outside;
+	padding-left: 20pt;
+}
+li {
+	font-size: 12pt;
+}
+
+.top {
+	text-indent: 10pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #FFFFFF;
+	background-color: #191970
+}
+
+
+h1.top {
+	padding-top: 25pt;
+}
+
+h2.top {
+	padding-bottom: 25pt;
+}
 
