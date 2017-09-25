@@ -7,12 +7,13 @@ p {
 	margin-top: 1pt;
 	margin-bottom: 2pt;	
 	padding-left: 10pt;
+	margin-right: 10pt;
 
 }
 
 body {
-	padding-left: 40pt;
-	padding-right: 40pt;
+	padding-left: 50pt;
+	padding-right: 50pt;
 	text-indent: 0pt;
 	font-family: Times, Helvetica,Arial,sans-serif;
 	background-color: #F5FFFA;
@@ -24,6 +25,7 @@ body {
 	color: #000000;
 	font-weight: bold;
 	padding-left: 10pt;
+	margin-top: 0pt;
 }
 
 .description {
@@ -60,7 +62,7 @@ h2 {
 	font-weight: lighter;
 	font-size: 16pt;
 	margin-top: 0pt;
-	margin-bottom: 8pt;
+	margin-bottom: 4pt;
 }
 
 .subheader {
@@ -78,14 +80,15 @@ h2 {
 
 #skills {
 	columns: 2;
-	list-style-position: outside;
-	padding-left: 30pt;
+	list-style-position: inside;
+	padding-left: 18pt;
 }
 
 
 #projects {
 	list-style-position: outside;
 	padding-left: 30pt;
+	margin-right: 10pt;
 }
 li {
 	font-size: 12pt;
@@ -136,13 +139,32 @@ div.main {
 div.segments {
 	padding-top: 2px;
 	padding-bottom: 2px;
-	border-left: 3px solid red;
-	border-color: #000000;
-	max-width: 800px;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
 }
 
 .job {
 	padding-bottom: 10pt;
+}
+
+h5 {
+	font-size: 12pt;
+	font-weight: lighter;
+	font-style: italic;
+	margin-top: 5pt;
+	margin-bottom: 3pt;
+	padding-left: 10%;
+}
+
+.citation {
+	font-size: 12pt;
+	padding-left: 10%;
+	margin-bottom: 6pt;
+
+}
+
+.myname {
+	font-weight: bold;
 }
 
 

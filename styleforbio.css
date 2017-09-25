@@ -11,7 +11,8 @@ h1 {
 	margin-bottom: 0pt;
 	height: 50pt;
 	background-color: #191970;
-	text-indent: 20pt;
+	padding-right: 20pt;
+	padding-left: 20pt;
 	font-size: 25pt;
 	color: #FFFFFF;
 }
@@ -27,7 +28,7 @@ h4.home {
 	padding-top: 0pt;
 	padding-bottom: 12pt;
 	background-color: #191970;
-	text-indent: 170pt;
+	padding-left: 170pt;
 	font-size: 12pt;
 	color: #FFFFFF;
 	font-style: italic;
@@ -53,7 +54,7 @@ hr {
 
 img {
 	display: block;
-	margin-left: 20pt;
+	margin-left: 0pt;
 	margin-right: 10pt;
 	margin-bottom: 10pt;
 	margin-top: 10pt;
@@ -68,10 +69,10 @@ div.image {
 }
 
 .one {
-	height: 30%;
-	width: 30%;
+	height: 40%;
+	width: 40%;
 	padding-right: 0pt;
-	flex-grow: 1;
+	flex-grow: 2;
 }
 
 .two {
@@ -100,6 +101,7 @@ div.link {
 	flex-direction: column;
 	flex-grow: 1;
 	align-self: flex-start;
+	align-items: center;
 }
 
 
