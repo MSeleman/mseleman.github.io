@@ -13,13 +13,33 @@ h1 {
 	background-color: #191970;
 	text-indent: 20pt;
 	font-size: 25pt;
-	color: #FFFFFD;
+	color: #FFFFFF;
+}
+
+h1.home {
+	padding-bottom: 0pt;
+	height: 30pt;
+
+}
+
+h4.home {
+	margin-top: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 12pt;
+	background-color: #191970;
+	text-indent: 170pt;
+	font-size: 12pt;
+	color: #FFFFFF;
+	font-style: italic;
 }
 
 p {
 	background-color: none;
-	text-indent: 25pt;
 	font-size: 14pt;
+}
+
+p.bio {
+	text-indent: 25pt;
 }
 
 hr {
@@ -30,6 +50,60 @@ hr {
 	margin-top: 2pt;
 
 }
+
+img {
+	display: block;
+	margin-left: 20pt;
+	margin-right: 10pt;
+	margin-bottom: 10pt;
+	margin-top: 10pt;
+	border-radius: 8px;
+}
+
+div.image {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.one {
+	height: 30%;
+	width: 30%;
+	padding-right: 0pt;
+	flex-grow: 1;
+}
+
+.two {
+	width: 80%;
+	flex-grow: 1;
+	border: 1px dashed black;
+	padding-left: 10pt;
+	margin-bottom: 0pt;
+	text-align: center;
+}
+
+.three {
+	width: 80%;
+	flex-grow: 1;
+	padding-left: 0pt;
+	border: 1px dashed black;
+	padding-left: 10pt;
+	margin-top: 10pt;
+	text-align: center;
+
+
+}
+
+div.link {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	align-self: flex-start;
+}
+
+
+
 
 
 
