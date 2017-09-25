@@ -1,0 +1,35 @@
+body {
+	background-color: #F5FFFA;
+	padding-left: 40pt;
+	padding-right: 40pt;
+	font-family: Times, Helvetica,Arial,sans-serif;
+}
+
+h1 {
+	padding-top: 30pt;
+	padding-bottom: 12pt;
+	margin-bottom: 0pt;
+	height: 50pt;
+	background-color: #191970;
+	text-indent: 20pt;
+	font-size: 25pt;
+	color: #FFFFFD;
+}
+
+p {
+	background-color: none;
+	text-indent: 25pt;
+	font-size: 14pt;
+}
+
+hr {
+	border-color: #191970; 
+	border-style: double;
+	border-width: 1px;
+	margin-bottom: 2pt;
+	margin-top: 2pt;
+
+}
+
+
+
