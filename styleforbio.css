@@ -1,3 +1,5 @@
+/* rules for selectors */
+
 body {
 	background-color: #F5FFFA;
 	padding-left: 40pt;
@@ -17,29 +19,8 @@ h1 {
 	color: #FFFFFF;
 }
 
-h1.home {
-	padding-bottom: 0pt;
-	height: 30pt;
-
-}
-
-h4.home {
-	margin-top: 0pt;
-	padding-top: 0pt;
-	padding-bottom: 12pt;
-	background-color: #191970;
-	padding-left: 170pt;
-	font-size: 12pt;
-	color: #FFFFFF;
-	font-style: italic;
-}
-
 p {
 	font-size: 14pt;
-}
-
-p.bio {
-	text-indent: 25pt;
 }
 
 hr {
@@ -48,7 +29,6 @@ hr {
 	border-width: 1px;
 	margin-bottom: 2pt;
 	margin-top: 2pt;
-
 }
 
 img {
@@ -60,12 +40,7 @@ img {
 	border-radius: 8px;
 }
 
-div.image {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: flex-start;
-}
+/* rules for all classes */
 
 .one {
 	height: 5%;
@@ -91,8 +66,35 @@ div.image {
 	padding-left: 10pt;
 	margin-top: 10pt;
 	text-align: center;
+}
 
+/* rules for class instances of a specific element type */
 
+h1.home {
+	padding-bottom: 0pt;
+	height: 30pt;
+}
+
+h4.home {
+	margin-top: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 12pt;
+	background-color: #191970;
+	padding-left: 170pt;
+	font-size: 12pt;
+	color: #FFFFFF;
+	font-style: italic;
+}
+
+p.bio {
+	text-indent: 25pt;
+}
+
+div.image {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
 }
 
 div.link {

@@ -1,6 +1,7 @@
 
-p {
+/* rules for selectors */
 
+p {
 	font-size: 12pt;
 	color: black;
 	text-align: left;
@@ -8,7 +9,6 @@ p {
 	margin-bottom: 2pt;	
 	padding-left: 10pt;
 	margin-right: 10pt;
-
 }
 
 body {
@@ -19,6 +19,36 @@ body {
 	background-color: #F5FFFA;
 	margin-right: 10pt;
 }
+
+h1 {
+	padding-bottom: 0;
+	padding-top: 0;
+	margin-bottom: 0pt;
+}
+
+h2 {
+	padding-bottom: 0pt;
+	padding-top: 0;
+	font-weight: lighter;
+	font-size: 16pt;
+	margin-top: 0pt;
+	margin-bottom: 4pt;
+}
+
+h5 {
+	font-size: 12pt;
+	font-weight: lighter;
+	font-style: italic;
+	margin-top: 5pt;
+	margin-bottom: 3pt;
+	padding-left: 10%;
+}
+
+li {
+	font-size: 12pt;
+}
+
+/* rules for all classes */
 
 .section-header {
 	font-size: 16pt;
@@ -50,21 +80,6 @@ body {
 	padding-left: 10pt;
 }
 
-h1 {
-	padding-bottom: 0;
-	padding-top: 0;
-	margin-bottom: 0pt;
-}
-
-h2 {
-	padding-bottom: 0pt;
-	padding-top: 0;
-	font-weight: lighter;
-	font-size: 16pt;
-	margin-top: 0pt;
-	margin-bottom: 4pt;
-}
-
 .subheader {
 	font-size: 14pt;
 	font-weight: bold;
@@ -76,7 +91,21 @@ h2 {
 	text-align: right;
 }
 
+.job {
+	padding-bottom: 10pt;
+}
 
+.citation {
+	font-size: 12pt;
+	padding-left: 10%;
+	margin-bottom: 6pt;
+}
+
+.myname {
+	font-weight: bold;
+}
+
+/* rules for ID's */
 
 #skills {
 	columns: 2;
@@ -90,9 +119,6 @@ h2 {
 	padding-left: 30pt;
 	margin-right: 10pt;
 }
-li {
-	font-size: 12pt;
-}
 
 .top {
 	text-indent: 0pt;
@@ -102,6 +128,7 @@ li {
 	background-color: #191970;
 }
 
+/* rules for class instances of a specific element type */
 
 h1.top {
 	padding-top: 25pt;
@@ -119,7 +146,6 @@ hr {
 	border-width: 1px;
 	margin-bottom: 2pt;
 	margin-top: 2pt;
-
 }
 
 hr.divider {
@@ -129,12 +155,7 @@ hr.divider {
 
 div.main {
 	background-color: #FFFFFF;
-	/*border-left: 10px solid red;
-	border-left-style: dashed;
-	border-color: #40E0D0; */
-
 }
-
 
 div.segments {
 	padding-top: 2px;
@@ -143,29 +164,7 @@ div.segments {
 	border-right: 3px solid black;
 }
 
-.job {
-	padding-bottom: 10pt;
-}
 
-h5 {
-	font-size: 12pt;
-	font-weight: lighter;
-	font-style: italic;
-	margin-top: 5pt;
-	margin-bottom: 3pt;
-	padding-left: 10%;
-}
-
-.citation {
-	font-size: 12pt;
-	padding-left: 10%;
-	margin-bottom: 6pt;
-
-}
-
-.myname {
-	font-weight: bold;
-}
 
 
 
